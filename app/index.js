@@ -1,9 +1,9 @@
 import './index.scss';
 
 // images
-import enginakyurt from "./assets/images/pexels-enginakyurt-4458519.jpg";
-import quangVietNguyen from "./assets/images/pexels-quang-viet-nguyen-107013384-9561297.jpg";
-import yaazhini from "./assets/images/pexels-yaazhini-17307532.jpg";
+import enginakyurt from "./assets/images/6.jpg";
+import quangVietNguyen from "./assets/images/7.jpg";
+import yaazhini from "./assets/images/5.jpg";
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -24,7 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
             name: 'Nikon Camera',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
             image: yaazhini
-        }
+        },
+        { image: "assets/images/product1.jpg", title: "Product 1", description: "A short description of product 1.", price: "$10.99" },
+        { image: "assets/images/product2.jpg", title: "Product 2", description: "A short description of product 2.", price: "$12.99" },
+        { image: "assets/images/product3.jpg", title: "Product 3", description: "A short description of product 3.", price: "$8.99" },
+        { image: "assets/images/product4.jpg", title: "Product 4", description: "A short description of product 4.", price: "$15.99" },
+        { image: "assets/images/product5.jpg", title: "Product 5", description: "A short description of product 5.", price: "$9.49" },
+        { image: "assets/images/product6.jpg", title: "Product 6", description: "A short description of product 6.", price: "$14.29" },
+        { image: "assets/images/product7.jpg", title: "Product 7", description: "A short description of product 7.", price: "$19.99" },
+        { image: "assets/images/product8.jpg", title: "Product 8", description: "A short description of product 8.", price: "$7.99" },
+        { image: "assets/images/product9.jpg", title: "Product 9", description: "A short description of product 9.", price: "$22.49" },
+        { image: "assets/images/product10.jpg", title: "Product 10", description: "A short description of product 10.", price: "$17.99" },
+        { image: "assets/images/product11.jpg", title: "Product 11", description: "A short description of product 11.", price: "$11.49" },
+        { image: "assets/images/product12.jpg", title: "Product 12", description: "A short description of product 12.", price: "$6.99" }
     ];
 
     products.forEach(product => {
